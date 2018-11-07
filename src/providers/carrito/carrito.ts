@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 // falta la conexion al servidor investigar seccion 12 (161.)
 
 @Injectable()
-export class CarritoProvider {
+export class CarritoService {
 
   constructor(public http: HttpClient) {
     console.log('Hello CarritoProvider Provider');
